@@ -19,12 +19,10 @@
 打开 VS Code 终端（快捷键：Ctrl+`` 或 菜单栏 - 终端 - 新建终端）  
 输入命令并回车：  
 ```bash
-运行
 git checkout preview
 ```
 若提示分支不存在，先拉取远程 preview 分支：  
 ```bash  
-运行
 git fetch origin preview
 git checkout preview
 ```
@@ -51,7 +49,7 @@ git checkout preview
 在 消息 输入框中填写提交说明（例如：添加Python学习笔记页面）  
 点击 提交 按钮（对勾图标）  
 提交完成后，点击 同步更改 按钮（箭头循环图标），将本地修改推送到自己 Fork 的 GitHub 仓库
-  
+
 ## 步骤 5：创建 Pull Request（PR）到原仓库的 preview 分支
 打开自己 Fork 的仓库 GitHub 页面（https://github.com/你的GitHub用户名/A-learning-forum-made-with-Mkdocs）  
 点击页面上的 Compare & pull request 按钮  
