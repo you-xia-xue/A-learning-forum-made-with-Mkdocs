@@ -1,4 +1,14 @@
 site_name: A-learning-forum-made-with-Mkdocs
 site_url: https://mydomain.org/mysite
+repo_name: you-xia-xue/A-learning-forum-made-with-Mkdocs
+repo_url: https://github.com/you-xia-xue/A-learning-forum-made-with-Mkdocsial
 theme:
   name: material
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
+  - git-committers:
+      repository: you-xia-xue/A-learning-forum-made-with-Mkdocs
+      branch: master
+    

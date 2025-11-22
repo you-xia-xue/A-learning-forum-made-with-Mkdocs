@@ -1,4 +1,5 @@
 name: ci
+  
 on:
   push:
     branches:
@@ -6,11 +7,12 @@ on:
       - main
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.0
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -26,4 +28,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-committers-plugin-2
       - run: mkdocs gh-deploy --force

@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+---
+comments: true
+---
+# 欢迎界面
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+该网站主要目标是为了搭建一个交流学习的小平台
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 如何为网站做出贡献  
+fork[仓库](https://github.com/you-xia-xue/A-learning-forum-made-with-Mkdocs)的preview分支在自己的仓库内修改，将修改后的分支请求推送（PR）到本仓库相应的分支内，经过审查会合并入主分支。
