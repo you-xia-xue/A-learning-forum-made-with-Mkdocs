@@ -1,4 +1,4 @@
-site_name: A-learning-forum-made-with-Mkdocs
+site_name: 一个学习用平台
 site_url: https://mydomain.org/mysite
 repo_name: you-xia-xue/A-learning-forum-made-with-Mkdocs
 repo_url: https://github.com/you-xia-xue/A-learning-forum-made-with-Mkdocsial
@@ -13,23 +13,28 @@ theme:
     - navigation.prune
     - navigation.top
     - search.suggest
-  palette: 
- # Palette toggle for light mode
-    - scheme: default
-      primary: grey
-      accent: indigo
+  palette:
+    
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-7 
-        name: 调整为暗色模式
-        
-        
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: emm
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
     # Palette toggle for dark mode
-    - scheme: slate
-      primary: blue grey
-      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: emm
+      primary: custom 
       toggle:
         icon: material/brightness-4
-        name: 调整为亮色模式
+        name: Switch to system preference
 plugins:
   - search
   - tags
@@ -41,4 +46,5 @@ plugins:
   - git-committers:
       repository: you-xia-xue/A-learning-forum-made-with-Mkdocs
       branch: master
-    
+extra_css:
+  - stylesheets/extracolor.css
