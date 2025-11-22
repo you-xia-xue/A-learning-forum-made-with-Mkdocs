@@ -4,6 +4,7 @@ repo_name: you-xia-xue/A-learning-forum-made-with-Mkdocs
 repo_url: https://github.com/you-xia-xue/A-learning-forum-made-with-Mkdocsial
 theme:
   name: material
+  custom_dir: overrides
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
