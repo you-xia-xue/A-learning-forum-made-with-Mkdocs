@@ -6,11 +6,11 @@
 安装 Git 并配置用户信息（用户名和邮箱）  
 拥有 GitHub 账号   
 
-**步骤 1**：Fork 原仓库  
+## 步骤 1：Fork 原仓库  
 打开浏览器，访问仓库地址：https://github.com/you-xia-xue/A-learning-forum-made-with-Mkdocs  
 点击右上角的 Fork 按钮，将仓库复制到自己的 GitHub 账号下（生成个人仓库副本）  
 
-**步骤 2**：在 VS Code 中克隆 Fork 后的仓库（preview 分支）  
+## 步骤 2：在 VS Code 中克隆 Fork 后的仓库（preview 分支）  
 打开 VS Code，点击左侧菜单栏的 源代码管理（图标类似分支）  
 点击 克隆仓库，在弹出的输入框中粘贴自己 Fork 后的仓库地址（格式：https://github.com/你的GitHub用户名/A-learning-forum-made-with-Mkdocs）  
 选择本地存放仓库的文件夹，等待克隆完成  
@@ -29,7 +29,7 @@ git fetch origin preview
 git checkout preview
 ```
 
-**步骤 3**：创建并编辑自己的 Markdown 页面  
+## 步骤 3：创建并编辑自己的 Markdown 页面  
 在 VS Code 的资源管理器中，进入 docs 目录（仓库的文档都存放在此目录）  
 右键 docs 目录，选择 新建文件，命名为 你的页面名称.md（例如：python学习笔记.md）  
 编辑 Markdown 内容，示例：  
@@ -45,13 +45,14 @@ git checkout preview
 ```
 编辑完成后，按 Ctrl+S 保存文件  
 
-**步骤 4**：提交修改到自己的仓库  
+## 步骤 4：提交修改到自己的仓库  
 回到 VS Code 的 源代码管理 面板  
 在 更改 区域可以看到你创建的 Markdown 文件，勾选该文件  
 在 消息 输入框中填写提交说明（例如：添加Python学习笔记页面）  
 点击 提交 按钮（对勾图标）  
-提交完成后，点击 同步更改 按钮（箭头循环图标），将本地修改推送到自己 Fork 的 GitHub 仓库  
-步骤 5：创建 Pull Request（PR）到原仓库的 preview 分支
+提交完成后，点击 同步更改 按钮（箭头循环图标），将本地修改推送到自己 Fork 的 GitHub 仓库
+  
+## 步骤 5：创建 Pull Request（PR）到原仓库的 preview 分支
 打开自己 Fork 的仓库 GitHub 页面（https://github.com/你的GitHub用户名/A-learning-forum-made-with-Mkdocs）  
 点击页面上的 Compare & pull request 按钮  
 在 PR 页面中：   
