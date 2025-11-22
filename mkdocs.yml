@@ -1,4 +1,4 @@
-site_name: 小组评论平台
+site_name: 一个学习用平台
 site_url: https://mydomain.org/mysite
 repo_name: you-xia-xue/A-learning-forum-made-with-Mkdocs
 repo_url: https://github.com/you-xia-xue/A-learning-forum-made-with-Mkdocsial
@@ -23,7 +23,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: defaulemmt
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
